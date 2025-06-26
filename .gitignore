@@ -1,0 +1,59 @@
+# Maven
+# https://maven.apache.org/guides/introduction/introduction-to-the-build-lifecycle.html#clean_lifecycle
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/MavenWrapperDownloader.java
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata
+bin/
+tmp/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nb-configuration.xml
+
+# OS
+.DS_Store
+.Trashes
+Thumbs.db
+
+# Logs
+*.log
+
+# Local JARs (if not managed by Maven properly)
+# The `lib` directory contains KControls-2.0.jar which is a local dependency.
+# It's generally good practice to commit local dependencies if they are critical
+# and not available elsewhere, but if you prefer not to commit large binaries,
+# you can uncomment the line below. However, given the current setup, it's
+# likely intended to be committed or managed manually.
+# /lib/
+
+# Other
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.class
+
